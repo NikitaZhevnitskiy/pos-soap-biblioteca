@@ -23,5 +23,6 @@ Now you can use the WSDL to generate the files to call the methods on the docker
 
 Shutdown Command:
  - $ sh down.sh
+ 
 Restart Command: 
  - $ sh restart.sh
