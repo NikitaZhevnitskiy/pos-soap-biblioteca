@@ -1,5 +1,5 @@
 # soap-biblioteca
-A simple soap example on docker
+A simple java soap example on docker made to the POS class
 
 With docker-compose installed, just open the terminal here and write the command:
 
