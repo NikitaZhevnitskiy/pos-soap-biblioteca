@@ -1,2 +1,2 @@
-mvn clean install
+./mvnw clean install
 docker-compose up -d 
