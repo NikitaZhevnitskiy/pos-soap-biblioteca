@@ -1,6 +1,6 @@
-br/ifpb/simba/soap/service/AutorService.class
 br/ifpb/simba/soap/service/LivroService.class
+br/ifpb/simba/soap/service/AutorService.class
 br/ifpb/simba/soap/Autor.class
-br/ifpb/simba/soap/Livro.class
 br/ifpb/simba/soap/persistence/Livros.class
+br/ifpb/simba/soap/Livro.class
 br/ifpb/simba/soap/persistence/Autors.class
