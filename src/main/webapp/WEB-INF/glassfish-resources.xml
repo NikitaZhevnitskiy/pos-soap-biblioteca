@@ -7,7 +7,7 @@
         <property name="portNumber" value="5432"/>
         <property name="databaseName" value="soap-biblioteca"/>
         <property name="User" value="postgres"/>
-        <property name="Password" value="12345"/>
+        <property name="Password" value="postgres"/>
         <!--<property name="URL" value="jdbc:postgresql://localhost:5432/soap-biblioteca"/>-->
         <property name="URL" value="jdbc:postgresql://soap-biblioteca-db:5432/soap-biblioteca"/>
         <property name="driverClass" value="org.postgresql.Driver"/>

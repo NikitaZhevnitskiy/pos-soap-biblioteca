@@ -26,7 +26,9 @@ public class AutorService {
     @WebMethod(operationName = "deleteAutor")
     public void deleteAutor(@WebParam(name = "autorCpf") String autorCpf) {
         Autor autor = this.autores.findAutor(autorCpf);
-        this.autores.deleteAutor(autor);
+        if (autor!=null){
+            this.autores.deleteAutor(autor);
+        }
     }
     
     @WebMethod(operationName = "updateAutor")

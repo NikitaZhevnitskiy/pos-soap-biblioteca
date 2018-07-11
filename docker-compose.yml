@@ -2,8 +2,11 @@ version: "2"
 services:
   db:
     container_name: soap-biblioteca-db-postgres
-    build: ./database/
-    image: soap-biblioteca-db-postgres
+    image: postgres
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=soap-biblioteca
     ports:
       - "5433:5432"
     volumes:
@@ -12,7 +15,7 @@ services:
   soap:
     container_name: soap-biblioteca-api-payara
     build: .
-    image: soap-biblioteca-api-payara
+    image: zhenik/soap-biblioteca-api-payara
     ports:
       - "8081:8080"
       - "4848:4848"

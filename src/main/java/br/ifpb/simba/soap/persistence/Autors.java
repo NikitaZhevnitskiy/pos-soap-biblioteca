@@ -36,6 +36,9 @@ public class Autors {
     }
 
     public void deleteAutor(Autor autor) {
+        if (!entityManager.contains(autor)) {
+            autor = entityManager.merge(autor);
+        }
         entityManager.remove(autor);
     }
 }
